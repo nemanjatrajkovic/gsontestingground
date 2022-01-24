@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/loader_dest">
+
+    <fragment
+        android:id="@+id/loader_dest"
+        android:name="com.example.gsontestingground.ui.LoaderFragment"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/home_dest"
+        android:name="com.example.gsontestingground.ui.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/lang_choice_dest"
+        android:name="com.example.gsontestingground.ui.language.LanguageSelectionFragment"
+        tools:layout="@layout/fragment_language_selection">
+
+        <argument
+            android:name="selectedPos"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/lang_content_dest"
+        android:name="com.example.gsontestingground.ui.language.LanguageContentFragment"
+        tools:layout="@layout/fragment_language_content"/>
+
+    <activity
+        android:id="@+id/json_activity"
+        android:name="com.example.gsontestingground.json.JsonActivity"
+        tools:layout="@layout/activity_json"/>
+
+</navigation>

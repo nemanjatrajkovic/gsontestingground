@@ -1,0 +1,39 @@
+{
+  "singlesMap": {
+    "anotherSingle": {
+      "nameId": "anotherSingle",
+      "value": "Another StringSingle",
+      "description": "Description: anotherSingle"
+    },
+    "hello": {
+      "nameId": "hello",
+      "value": "Hello StringSingle",
+      "description": "Description: hello"
+    },
+    "welcome": {
+      "nameId": "welcome",
+      "value": "Welcome StringSingle",
+      "description": "Description: welcome"
+    }
+  },
+  "arraysJsonMap": {
+    "languages": {
+      "nameId": "languages",
+      "values": [
+        "DE",
+        "SR",
+        "RUS",
+        "ISR"
+      ]
+    },
+    "countries": {
+      "nameId": "countries",
+      "values": [
+        "Germany",
+        "Serbia",
+        "Russia",
+        "Israel"
+      ]
+    }
+  }
+}

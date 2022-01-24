@@ -1,0 +1,48 @@
+{
+  "singles": [
+    {
+      "nameId": "helloJson",
+      "value": "Hello json single!"
+    },
+    {
+      "nameId": "anotherSingle",
+      "value": "Here's another single."
+    }
+  ],
+  "arrays": [
+    {
+      "nameId": "countries",
+      "value": [
+        "Serbia",
+        "Germany",
+        "Switzerland",
+        "Netherlands",
+        "Finland"
+      ]
+    },
+    {
+      "nameId": "languages",
+      "value": [
+        "RS",
+        "DE",
+        "DE_SW",
+        "DU",
+        "FI"
+      ]
+    }
+  ],
+  "plurals": [
+    {
+      "nameId": "books",
+      "value": {
+        "zero": "books",
+        "one": "book",
+        "two": "books",
+        "three": "books",
+        "four": "books",
+        "few": "books",
+        "many": "books"
+      }
+    }
+  ]
+}

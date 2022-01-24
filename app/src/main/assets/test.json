@@ -1,0 +1,44 @@
+{
+  "map": {
+    "singleId_0": {
+      "nameId": "singleId_0",
+      "value": "singleValue_0"
+    },
+    "singleId_1": {
+      "nameId": "singleId_1",
+      "value": "singleValue_1"
+    },
+    "singleId_2": {
+      "nameId": "singleId_2",
+      "value": "singleValue_2"
+    },
+    "singleId_3": {
+      "nameId": "singleId_3",
+      "value": "singleValue_3"
+    },
+    "singleId_4": {
+      "nameId": "singleId_4",
+      "value": "singleValue_4"
+    },
+    "singleId_5": {
+      "nameId": "singleId_5",
+      "value": "singleValue_5"
+    },
+    "singleId_6": {
+      "nameId": "singleId_6",
+      "value": "singleValue_6"
+    },
+    "singleId_7": {
+      "nameId": "singleId_7",
+      "value": "singleValue_7"
+    },
+    "singleId_8": {
+      "nameId": "singleId_8",
+      "value": "singleValue_8"
+    },
+    "singleId_9": {
+      "nameId": "singleId_9",
+      "value": "singleValue_9"
+    }
+  }
+}

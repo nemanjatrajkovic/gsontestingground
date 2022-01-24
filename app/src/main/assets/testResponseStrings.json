@@ -1,0 +1,34 @@
+{
+  "singlesMap": {
+    "anotherSingle": {
+      "value": "Another StringSingle",
+      "description": "Description: anotherSingle"
+    },
+    "hello": {
+      "value": "Hello StringSingle",
+      "description": "Description: hello"
+    },
+    "welcome": {
+      "value": "Welcome StringSingle",
+      "description": "Description: welcome"
+    }
+  },
+  "arraysMap": {
+    "languages": {
+      "values": [
+        "DE",
+        "SR",
+        "RUS",
+        "ISR"
+      ]
+    },
+    "countries": {
+      "values": [
+        "Germany",
+        "Serbia",
+        "Russia",
+        "Israel"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "supportedLanguages": {
+    "EN": {
+      "name": "English",
+      "description": "Default language if selection is not available"
+    },
+    "DE": {
+      "name": "German",
+      "description": "German language"
+    }
+  }
+}

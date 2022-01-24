@@ -1,0 +1,14 @@
+<resources>
+    <!-- Single string comment -->
+    <string name="app_name">Gson Testing Ground</string>
+    <string name="stringArgs">String with argument %1s</string>
+
+    <!-- description comment -->
+    <string-array name="countries">
+        <item>Germany</item>
+        <item>Serbia</item>
+        <item>Russia</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

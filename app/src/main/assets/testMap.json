@@ -1,0 +1,12 @@
+{
+  "map": {
+    "single_0": "value_0",
+    "single_1": "value_1",
+    "single_2": "value_2",
+    "single_3": "value_3",
+    "single_4": "value_4",
+    "single_5": "value_5",
+    "single_6": "value_6",
+    "exampleId": "Hello strings.json"
+  }
+}

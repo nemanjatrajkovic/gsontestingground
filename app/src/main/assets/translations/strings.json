@@ -1,0 +1,25 @@
+{
+  "singlesMap": {
+    "hello": {
+      "value": "Hello world!"
+    },
+    "welcome": {
+      "value": "Welcome to the strings.json localization.",
+      "description": "A welcome message on the Welcome screen"
+    },
+    "previousButton": {
+      "value": "Previous"
+    },
+    "nextButton": {
+      "value": "Next"
+    },
+    "selectLanguage": {
+      "value": "Select language",
+      "description": "Subtitle on the Language screen, prompting a language selection"
+    },
+    "description": {
+      "value": "This is a sample poc app. It is constructed to provide insight of the Custom Translation mechanism usage. As you can see, text is aligned to center. This is obvious when we have languages that have significant length difference.",
+      "description": "Few sentences of description on what is presented here"
+    }
+  }
+}

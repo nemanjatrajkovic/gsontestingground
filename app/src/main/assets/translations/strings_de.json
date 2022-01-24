@@ -1,0 +1,25 @@
+{
+  "singlesMap": {
+    "hello": {
+      "value": "Hallo Welt!"
+    },
+    "welcome": {
+      "value": "Willkommen bei der strings.json-Lokalisierung.",
+      "description": "A welcome message on the Welcome screen"
+    },
+    "previousButton": {
+      "value": "Vorherige"
+    },
+    "nextButton": {
+      "value": "Nächste"
+    },
+    "selectLanguage": {
+      "value": "Sprache auswählen",
+      "description": "Subtitle on the Language screen, prompting a language selection"
+    },
+    "description": {
+      "value": "Dies ist eine Beispiel-POC-App. Es wurde entwickelt, um einen Einblick in die Verwendung des benutzerdefinierten Übersetzungsmechanismus zu geben. Wie Sie sehen können, ist der Text zentriert ausgerichtet. Dies ist offensichtlich, wenn wir Sprachen haben, die einen signifikanten Längenunterschied aufweisen",
+      "description": "Few sentences of description on what is presented here"
+    }
+  }
+}

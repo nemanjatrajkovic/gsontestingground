@@ -1,0 +1,12 @@
+{
+  "map": {
+    "singleId_0": {
+      "nameId": "singleId_0",
+      "value": "singleValue_0"
+    },
+    "singleId_1": {
+      "nameId": "singleId_1",
+      "value": "singleValue_1"
+    }
+  }
+}

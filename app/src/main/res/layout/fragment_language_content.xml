@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_width="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingTop="46dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toTopOf="@id/nextLanguage"
+        android:orientation="vertical"
+        app:constraint_referenced_ids="helloText,welcomeText,spacerAboveDescription,descriptionText"
+        app:flow_verticalGap="16dp"
+        app:flow_horizontalAlign="start"/>
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"/>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome"/>
+    <Space
+        android:id="@+id/spacerAboveDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/descriptionText"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".5"
+        app:layout_constraintVertical_weight="3"
+        app:layout_constraintHorizontal_weight="4">
+    <TextView
+        android:id="@+id/descriptionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".5"
+        android:text="Dies ist eine Beispiel-POC-App. Es wurde entwickelt, um einen Einblick in die Verwendung des benutzerdefinierten Übersetzungsmechanismus zu geben. Wie Sie sehen können, ist der Text zentriert ausgerichtet. Dies ist offensichtlich, wenn wir Sprachen haben, die einen signifikanten Längenunterschied aufweisen."/>
+    </androidx.core.widget.NestedScrollView>
+    <Button
+        android:id="@+id/previousLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_margin="16dp"
+        android:text="Previous"
+        app:layout_constraintEnd_toStartOf="@+id/nextLanguage"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/nextLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
